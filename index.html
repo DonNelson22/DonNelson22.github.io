@@ -1,0 +1,239 @@
+1.html
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>EJ Creations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .profile-image {
+          position: absolute;
+          top: 40px;
+          right: 40px;
+          width: 150px; /* Adjust the width as needed */
+          border-radius: 100px%; /* Makes the image round */
+        }
+        .details {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Don Nelson</h1>
+        <p>Web Developer</p>
+    </header>
+    <div class="container">
+        <img class="profile-image" src="3.webp" alt="download.jfif">
+        <h2>Myself</h2>
+        <p>
+            Hi there. My name is Don Nelson. I am 19 Years old. Computer Science Student.<br>
+            check out my insta profile
+            <a rel="sponsored" href="https://www.instagram.com/_cokachi_/" target="_blank">^_^</a>.
+        </p>
+
+        <h2>My Work</h2>
+        <p>
+            Showcase your work or projects here with descriptions and links.
+        </p>
+        <div class="details">
+            <h2>Contact Information</h2>
+            <p>
+                Email: donnelson0604@gmail.com<br>
+                instagram: <a href="https://www.instagram.com/_cokachi_/">Don Nelson</a>
+            </p>
+            <p>
+                Address: Venakkavil House, Kumbalanghi, kochi, Kerala<br>
+                Phone: (+91) 7594883047<br>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
+2.html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>EJ Creations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('bg.jpg') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .profile-image {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 100px;
+            border-radius: 50%;
+        }
+        .details {
+            margin-top: 20px;
+        }
+        .gallery {
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 100px;
+            height: 100px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+            transition: transform 0.2s, opacity 0.2s;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+            opacity: 0.7;
+        }
+        .achievements {
+            margin-top: 20px;
+        }
+        .achievement-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            transition: transform 0.2s, opacity 0.2s;
+        }
+        .achievement-image:hover {
+            transform: scale(1.1);
+            opacity: 0.7;
+        }
+        /* Navigation Tab Styles */
+        .nav {
+            text-align: center;
+        }
+        .nav a {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 5px;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.2s;
+        }
+        .nav a:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Don Nelson</h1>
+        <p>Web Developer</p>
+    </header>
+    <div class="container" id="about">
+        <img class="profile-image" src="3.webp" alt="don">
+    <div class="nav">
+            <a href="#about">About Me</a>
+            <a href="#contact">Schools Achivements</a>
+            <a href="#work">My Work</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#details">Contact Details</a>
+    </div>
+
+        <h2>About Me</h2>
+        <p>
+            Hi there. My name is Don Nelson. I am 19 Years old. Computer Science Student.<br>
+            Playing and Music are my Fav.<br>
+            currently studying in sahrdaya college of engineering
+        </p>
+    </div>
+    <div class="container" id="contact">
+        <h2>Schools Achivements</h2>
+        <p>
+            - 100% IN SSLC<br>
+            - 87% IN PLUSTWO<br>
+        </p>
+        <div class="gallery-container">
+            <img src="p1.jpg" alt="Project 1">
+            <img src="p2.jpg" alt="Project 2">
+            <img src="p3.jpg" alt="Project 3">
+            <img src="p4.jpg" alt="Project 4">
+        </div>
+    </div>
+    <div class="container" id="work">
+        <h2>My Work</h2>
+        <p>
+            Showcase My Works.
+        </p>
+        <div class="gallery">
+            <div class="gallery-container">
+                <img src="project1.jpg" alt="Project 1">
+                <img src="project2.jpg" alt="Project 2">
+                <img src="project3.jpg" alt="Project 3">
+            </div>
+        </div>
+    </div>
+    <div class="container" id="achievements">
+        <h2>College Memories</h2>
+        <img class="achievement-image" src="achievement1.jpg" alt="Achievement 1">
+        <img class "achievement-image" src="achievement2.jpg" alt="Achievement 2">
+        <img class="achievement-image" src="achievement3.jpg" alt="Achievement 3">
+        <img class="achievement-image" src="achievement4.jpg" alt="Achievement 4">
+        <img class="achievement-image" src="achievement5.jpg" alt="Achievement 5">
+    </div>
+    <div class="container" id="details">
+        <h2>Contact Details</h2>
+        <p>
+          Email: donnelson0604@gmail.com<br>
+          instagram: <a href="https://www.instagram.com/_cokachi_/">Don Nelson</a>
+        </p>
+        <p>
+          Address: Venakkavil House, Kumbalanghi, kochi, Kerala<br>
+          Phone: (+91) 7594883047<br>
+        </p>
+    </div>
+</body>
+</html>
